@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ilargiadesigns.github.io/survive20-market/sitemap.xml
