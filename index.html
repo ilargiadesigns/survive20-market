@@ -3,52 +3,73 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Market Briefs</title>
-  <meta name="description" content="Concise competitor and market research briefs for founders, freelancers, and small businesses." />
+  <title>Market Briefs | Fast competitor research for small businesses</title>
+  <meta name="description" content="Simple competitor and market research briefs for founders, freelancers, and small businesses. Get a concise report with competitors, positioning, pricing checks, and next steps." />
   <style>
-    body{font-family:Arial,sans-serif;max-width:900px;margin:40px auto;padding:0 20px;line-height:1.6;color:#1f2937}
-    .card{border:1px solid #e5e7eb;border-radius:14px;padding:24px;margin:18px 0;background:#fff}
-    .eyebrow{color:#6b7280;text-transform:uppercase;letter-spacing:.08em;font-size:.8rem}
-    h1{font-size:2.4rem;line-height:1.1;margin:.25rem 0 1rem}
-    h2{margin-top:0}
-    ul{padding-left:20px}
-    .tag{display:inline-block;background:#eef2ff;color:#3730a3;border-radius:999px;padding:6px 10px;margin:4px 6px 0 0;font-size:.9rem}
-    a.button{display:inline-block;background:#111827;color:#fff;text-decoration:none;padding:12px 18px;border-radius:10px;margin-top:8px}
-    .muted{color:#6b7280}
+    :root{--text:#111827;--muted:#6b7280;--bg:#f9fafb;--card:#fff;--line:#e5e7eb;--accent:#111827;--accent2:#eef2ff}
+    *{box-sizing:border-box}
+    body{font-family:Arial,sans-serif;max-width:920px;margin:0 auto;padding:40px 20px;line-height:1.6;color:var(--text);background:var(--bg)}
+    .card{border:1px solid var(--line);border-radius:16px;padding:28px;margin:18px 0;background:var(--card);box-shadow:0 1px 2px rgba(0,0,0,.03)}
+    .eyebrow{color:var(--muted);text-transform:uppercase;letter-spacing:.08em;font-size:.8rem;font-weight:700}
+    h1{font-size:2.7rem;line-height:1.05;margin:.3rem 0 1rem}
+    h2{margin-top:0;font-size:1.35rem}
+    p{margin:0 0 1rem}
+    ul{padding-left:20px;margin:0}
+    li{margin:0 0 .45rem}
+    .tag{display:inline-block;background:var(--accent2);color:#3730a3;border-radius:999px;padding:6px 10px;margin:4px 6px 0 0;font-size:.92rem}
+    a.button{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;padding:13px 18px;border-radius:10px;margin-top:10px;font-weight:700}
+    .muted{color:var(--muted)}
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+    @media (max-width:720px){.grid{grid-template-columns:1fr}h1{font-size:2.15rem}}
+    .price{font-size:1.5rem;font-weight:700}
   </style>
 </head>
 <body>
   <div class="card">
     <div class="eyebrow">Productized research service</div>
-    <h1>Market Briefs</h1>
-    <p>I create concise competitor and market research briefs for founders, freelancers, and small businesses who need practical direction fast.</p>
+    <h1>Fast competitor research for small businesses</h1>
+    <p>I create concise market briefs for founders and solo operators who need clear direction without paying for a full research engagement.</p>
     <p>
       <span class="tag">Competitor comparison</span>
       <span class="tag">Positioning notes</span>
       <span class="tag">Pricing checks</span>
       <span class="tag">Actionable recommendations</span>
     </p>
-    <a class="button" href="mailto:hello@example.com">Request a brief</a>
-    <p class="muted">This site is a simple placeholder for the service assets being developed in the workspace.</p>
+    <p><strong>Typical delivery:</strong> 48 hours</p>
+    <p><strong>Starting price:</strong> <span class="price">€49</span></p>
+    <a class="button" href="mailto:hello@example.com?subject=Market%20Brief%20Request">Request a brief</a>
+    <p class="muted">One-page service with a clear output: a practical brief you can use for positioning, pricing, and next-step planning.</p>
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <h2>What you get</h2>
+      <ul>
+        <li>1-page executive summary</li>
+        <li>3-5 competitor list and comparison table</li>
+        <li>Positioning and messaging notes</li>
+        <li>Pricing observations</li>
+        <li>Practical next-step recommendations</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Best for</h2>
+      <ul>
+        <li>Solo founders</li>
+        <li>Micro-SaaS builders</li>
+        <li>Local service businesses</li>
+        <li>Freelancers launching a niche offer</li>
+      </ul>
+    </div>
   </div>
 
   <div class="card">
-    <h2>What you get</h2>
+    <h2>How it works</h2>
     <ul>
-      <li>1-page executive summary</li>
-      <li>Competitor list and comparison table</li>
-      <li>Positioning and messaging notes</li>
-      <li>Practical next-step recommendations</li>
-    </ul>
-  </div>
-
-  <div class="card">
-    <h2>Best for</h2>
-    <ul>
-      <li>Solo founders</li>
-      <li>Micro-SaaS builders</li>
-      <li>Local service businesses</li>
-      <li>Freelancers launching a niche offer</li>
+      <li>You send the business, product, or niche you want researched.</li>
+      <li>I review the market and prepare a concise brief.</li>
+      <li>You get a clean summary with sources, observations, and next steps.</li>
     </ul>
   </div>
 
